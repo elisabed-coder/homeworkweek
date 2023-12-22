@@ -1,0 +1,27 @@
+body{
+width: 900px;
+}
+.wrapper {
+margin-top: 0;
+margin-bottom: 0;
+display: inline-block;
+font-family: Arial;
+font-size: 20px;
+}
+header{
+margin-bottom: 10px;
+}
+header, footer  { 
+background-color: blue;
+color:white;
+padding: 20px 5px 20px 15px;
+border: 15px solid rgb(7, 7, 137);
+}
+main { 
+background-color: yellow;
+padding: 15px 17px 15px 17px;   
+border: 50px solid #877a06;
+width: 650px;
+margin-bottom: 15px;
+margin-left: 12px;
+}
