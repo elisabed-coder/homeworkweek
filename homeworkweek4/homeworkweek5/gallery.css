@@ -13,10 +13,7 @@
 
 }
 
-.fjordph,
-.forestph,
-.northernph,
-.mountainph{ 
+.thumbnail { 
     width: 500px;
     height: 400px;
     display: block;
