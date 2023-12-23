@@ -1,0 +1,39 @@
+* { 
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Arial;
+
+}
+.imgpreview { 
+    border: 1px solid rgb(208, 205, 205);
+    width: 500px;
+    height: 600px;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.fjordph,
+.forestph,
+.northernph,
+.mountainph{ 
+    width: 500px;
+    height: 400px;
+    display: block;
+    object-fit: cover;
+}
+
+.imgpreview:hover {
+    border: 1px solid black;
+   
+}
+
+.description { 
+    width: 500px;
+    font-size: 20px;
+
+}
+.imgname { 
+    text-align: center;
+
+}
