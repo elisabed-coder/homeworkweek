@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout2</title>
+    <style>
+        * { 
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        body { 
+            height: 100vh;
+        }
+        body, .column, .row {
+            box-sizing: border-box;
+            border: 1px solid black;
+        }
+        .column { 
+            float: left;
+            width: 33.33%;
+            height: 100%;
+        }
+
+        .row { 
+            height: 33.3%;
+        }
+        .second-row {
+            height: 66.7%;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="row"></div>
+    <div class="second-row">
+    <div class="column"></div>
+    <div class="column"></div>
+    <div class="column"></div>
+</div>
+</body>
+</html>

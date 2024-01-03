@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout3</title>
+    <style>
+        * { 
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        body { 
+            height: 100vh;
+            border: 1px solid black;
+            box-sizing: border-box;
+        }
+        .first-row, .last-row, .column{ 
+            border: 1px solid black;
+            box-sizing: border-box;
+        }
+        .second-row {
+            height: 50%;
+        }
+        .column {
+            height: 100%;
+            width: 33.33%;
+            float: left;
+        }
+
+        .first-row {
+            height: 30%;
+        }
+        .last-row {
+            height: 20%;
+        }
+    </style>
+</head>
+<body>
+    <div class="first-row"></div>
+    <div class="second-row">
+        <div class="column"></div>
+        <div class="column"></div>
+        <div class="column"></div>
+    </div>
+    <div class="last-row"></div>
+</body>
+</html>

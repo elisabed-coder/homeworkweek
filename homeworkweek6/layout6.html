@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout6</title>
+    <style>
+        * { margin-top: 0;
+            margin-bottom: 0;
+        }
+       
+        body { 
+            height: 100vh;
+            border:1px solid black;
+            box-sizing: border-box;
+        }
+        
+        .first-container {
+            height: 25%;
+            box-sizing: border-box;
+            border: 1px solid black;
+        }
+        .second-container {
+            height: 50%;
+        }
+        .div1 {
+            width: 25%;
+            border: 1px solid black;
+            height: 100%;
+            box-sizing: border-box;
+            float: left;
+        }
+        .div2 {
+            height: 100%;  
+            width: 50%;  
+            float: left;   
+         }
+        .div3 {
+            height: 20%;       
+            box-sizing: border-box;
+            border: 1px solid black;
+            width: 100%; 
+        }
+        .div4 {
+            height: 80%;
+            border: 1px solid black;
+            box-sizing: border-box;
+            width: 100%; 
+        }
+        
+     
+
+    </style>
+</head>
+<body>
+    <div class="first-container"></div>
+    <div class="second-container">
+        <div class="div1"></div>
+        <div class="div2">
+            <div class="div3"></div>
+            <div class="div4"></div>
+        </div>
+        <div class="div1"></div>
+    </div>
+    <div class="first-container"></div>
+
+    </div>
+
+    
+</body>
+</html>

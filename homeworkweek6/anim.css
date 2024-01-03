@@ -1,0 +1,26 @@
+
+@keyframes boxAnimation {
+    25% { transform: translateX(400px);
+    }
+    100% {
+        transform: translate(800px);
+        }
+}
+
+.parent {
+    width: 1000px;
+    height: 250px;
+    border: 1px solid black;
+    margin:auto;
+    
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    margin-top: 25px;
+    background-color: red;
+    animation-name: boxAnimation;
+    animation-duration: 8s;
+    
+}
