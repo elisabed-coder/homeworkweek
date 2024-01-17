@@ -7,7 +7,6 @@
 body {
   max-width: 1600px;
   margin: 0 auto;
-  /* background-color: var(--dark-blue, #172755); */
 }
 
 /* this is header style */
@@ -336,6 +335,7 @@ footer {
   margin: 0 auto;
   margin-top: 63px;
   padding-bottom: 40px;
+  width: 86%;
 }
 .contact-info {
   display: flex;
