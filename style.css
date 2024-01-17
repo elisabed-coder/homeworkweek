@@ -7,10 +7,10 @@
 body {
   max-width: 1600px;
   background-color: var(--dark-blue, #172755);
+  margin: 0 auto;
 }
 /* this is header style */
 header {
-  /* background-color: var(--dark-blue, #172755); */
   padding-top: 20px;
   background-image: url("images/Subtract.png"), url("images/Subtract11.png");
   background-repeat: no-repeat;
@@ -64,6 +64,8 @@ header {
   color: var(--text-secondary, #8794ba);
   cursor: pointer;
 }
+
+/* main section style */
 main {
   display: flex;
   justify-content: right;
@@ -133,7 +135,6 @@ main {
   width: 75%;
   color: var(--text-secondary, #8794ba);
   text-align: center;
-  /* text / body */
   font-size: 18px;
   font-weight: 400;
   line-height: 150%; /* 27px */
@@ -197,14 +198,10 @@ main {
   margin-bottom: 150px;
 }
 
-/* price columns section */
-footer {
-  /* background-color: var(--dark-blue, #172755); */
+.price {
   background-image: url(images/footerSubtract.png);
   background-repeat: no-repeat;
   background-position: right center;
-}
-.price {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -328,7 +325,6 @@ footer {
   margin-top: 100px;
 }
 
-/* footer section style */
 .footer-section {
   max-width: 86%;
   margin: 0 auto;
@@ -374,7 +370,6 @@ footer {
 .footer-button {
   margin-top: 80px;
   display: inline-flex;
-  justify-content: left;
   gap: 58px;
   border: 1px dashed blue;
   padding: 10px;
