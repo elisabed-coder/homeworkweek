@@ -6,15 +6,19 @@
 }
 body {
   max-width: 1600px;
-  background-color: var(--dark-blue, #172755);
   margin: 0 auto;
+  /* background-color: var(--dark-blue, #172755); */
 }
+
 /* this is header style */
+
 header {
   padding-top: 20px;
   background-image: url("images/Subtract.png"), url("images/Subtract11.png");
   background-repeat: no-repeat;
   background-position: left top, right center;
+  background-color: var(--dark-blue, #172755);
+  padding-bottom: 50px;
 }
 .nav-bar {
   margin-top: 40px;
@@ -74,6 +78,7 @@ main {
 }
 .main-picture {
   position: relative;
+  z-index: 1;
 }
 .picture-on {
   position: absolute;
@@ -197,7 +202,9 @@ main {
 .last-pict-of-section {
   margin-bottom: 150px;
 }
-
+footer {
+  background-color: var(--dark-blue, #172755);
+}
 .price {
   background-image: url(images/footerSubtract.png);
   background-repeat: no-repeat;
@@ -326,9 +333,9 @@ main {
 }
 
 .footer-section {
-  max-width: 86%;
   margin: 0 auto;
   margin-top: 63px;
+  padding-bottom: 40px;
 }
 .contact-info {
   display: flex;
@@ -352,60 +359,11 @@ main {
   gap: 40px;
 }
 
-.footer-logo {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-top: 78px;
-}
-
-.footer-logo div:nth-child(1),
-.footer-logo div:nth-child(2) {
-  display: flex;
-  flex-direction: row;
-  gap: 60px;
-  border: 1px dashed blue;
-  padding: 10px;
-}
-.footer-button {
-  margin-top: 80px;
-  display: inline-flex;
-  gap: 58px;
-  border: 1px dashed blue;
-  padding: 10px;
-}
-.footer-button button {
-  border-radius: 68px;
-  display: inline-flex;
-  height: 50px;
-  padding: 10px 80px;
-  align-items: center;
-  gap: 10px;
-  flex-shrink: 0;
-  color: white;
-}
-.footer-button button:nth-child(1) {
-  background: #ef2a82;
-  border: none;
-}
-
-.footer-button button:nth-child(2) {
-  border: 1px solid #2a407c;
-  background-color: #172755;
-}
-
-.footer-button button:nth-child(3) {
-  border: 1px solid #465b95;
-  background-color: #172755;
-  opacity: 0.6;
-}
-
 .diagonal {
   height: 100%;
   width: 100%;
   --skew-angle: -5deg;
   --background: white;
-
   position: relative;
   isolation: isolate;
 }
@@ -419,4 +377,6 @@ main {
   transform: skewY(var(--skew-angle));
   border-top: 10px solid rgb(249, 88, 115);
   border-bottom: 10px solid rgb(249, 88, 115);
+  margin-top: -190px;
+  margin-bottom: -70px;
 }
